@@ -1,9 +1,3 @@
-/**********************************************************************
-  Filename    : Alertor
-  Description : Control passive buzzer by button.
-  Auther      : www.freenove.com
-  Modification: 2020/07/11
-**********************************************************************/
 #define PIN_BUZZER 13
 #define PIN_BUTTON 4
 #define CHN        0   //define the pwm channel
