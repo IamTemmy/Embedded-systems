@@ -1,4 +1,4 @@
-// In this program, I have written this code to control the output of four LEDs.
+// In this program, I have written this code to control the output of 4 LEDs.
 // Each LED produces a HIGH output, that is it stays on and goes off at different time intervals for each respective LED
 
 // The first LED is identified as LED_1 and is assigned the GPIO 2 port
