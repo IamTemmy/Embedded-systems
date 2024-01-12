@@ -16,7 +16,7 @@
 bool loopActive = false; // Variable to control the loop
 
 void setup() {
-  pinMode(PIN_LED1, OUTPUT)
+  pinMode(PIN_LED1, OUTPUT);
   pinMode(PIN_LED2, OUTPUT);
   pinMode(PIN_LED3, OUTPUT);
   pinMode(PIN_LED4, OUTPUT);
