@@ -4,6 +4,7 @@
 //employs multisampling for improved accuracy.
 //leverages calibration for more precise voltage readings.
 //checks for eFuse calibration values for potential usage.
+
 #include "esp_adc_cal.h"
 #define PIN_ANALOG_IN   2            // A10, ADC2_CHANNEL_0
 
