@@ -2,11 +2,9 @@
 //It also prints the ADC value, DAC value, and calculated voltage to the serial monitor for observation and debugging.
 
 #define PIN_ANALOG_IN  2
-
 void setup() {
   Serial.begin(115200);
 }
-
 void loop() {
   int adcVal = analogRead(PIN_ANALOG_IN);
   //Reads the analog voltage value from the specified pin (pin 2) and stores it in the adcVal variable. The value will be between 0 and 4095, representing a 10-bit analog-to-digital conversion.
