@@ -1,7 +1,7 @@
 //This code continuously reads an analog voltage from pin 2, maps it to a digital value suitable for a DAC, and outputs the corresponding voltage using the DAC.
 //It also prints the ADC value, DAC value, and calculated voltage to the serial monitor for observation and debugging.
 
-#define PIN_ANALOG_IN  2
+#define PIN_ANALOG_IN  4
 
 void setup() {
   Serial.begin(115200);
