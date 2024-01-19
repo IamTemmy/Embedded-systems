@@ -16,9 +16,12 @@
 
 #define FRQ1      1000  //define the pwm frequency
 #define FRQ2      1000  //define the pwm frequency
+
 //at a low frequency, it is also difficult for an iphone camera to detect the blinking rate
+
 #define PWM_BIT1   8    //define the pwm precision
 #define PWM_BIT2   12   //define the pwm precision
+
 //the bits parameters serves the purpose of specifying the precision or resolution of the PWM values for a 
 //particular PWM channel. The higher the bit value, the smoother the transition. 
 //higher bit values however, increase the computational load on the microcontroller
