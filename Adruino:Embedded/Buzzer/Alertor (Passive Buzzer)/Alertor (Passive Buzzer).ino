@@ -1,6 +1,7 @@
 #define PIN_BUZZER 13
 #define PIN_BUTTON 4
-#define CHN        0   //define the pwm channel
+#define CHN        0   
+//define the pwm channel
 
 void setup() {
   Serial.begin(115200);
