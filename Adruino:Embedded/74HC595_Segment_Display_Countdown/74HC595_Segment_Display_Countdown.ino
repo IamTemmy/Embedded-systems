@@ -1,8 +1,10 @@
+//This code displays a counter from 0 - 9, and letters of the alphabet from A to F
 int dataPin = 15;          // Pin connected to DS of 74HC595（Pin14）
 int latchPin = 2;          // Pin connected to ST_CP of 74HC595（Pin12）
 int clockPin = 4;          // Pin connected to SH_CP of 74HC595（Pin11）
 
 // Define the encoding of characters 0-F for the common-anode 7-Segment Display
+// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, b, C, d, E, F
 byte num[] = {
   0xc0, 0xf9, 0xa4, 0xb0, 0x99, 0x92, 0x82, 0xf8,
   0x80, 0x90, 0x88, 0x83, 0xc6, 0xa1, 0x86, 0x8e
